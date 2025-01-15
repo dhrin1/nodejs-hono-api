@@ -1,0 +1,52 @@
+
+GET http://localhost:3000/users
+
+###
+GET http://localhost:3000/users/1?name=Alhdrin
+
+###
+POST http://localhost:3000/users
+Content-Type: application/json
+Authorization: Bearer 1234
+
+{
+    
+    "name": "John Doe",
+    "age": 10
+}
+
+###
+PUT http://localhost:3000/users/2
+Content-Type: application/json
+Authorization: Bearer 1234
+
+{
+    "name": "Anna Belle"
+}
+
+###
+DELETE http://localhost:3000/users/1
+
+###Products
+
+GET http://localhost:3000/products
+
+###
+GET http://localhost:3000/products/1?name=Iphone
+
+###
+POST http://localhost:3000/products
+Content-Type: application/json
+Authorization: Bearer 1234
+
+{
+    
+    "name": "iPhone 16",
+    "age": 50000
+}
+
+###
+PUT http://localhost:3000/products/1
+
+###
+DELETE http://localhost:3000/products/1
