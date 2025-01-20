@@ -47,6 +47,14 @@ Authorization: Bearer 1234
 
 ###
 PUT http://localhost:3000/products/1
+Content-Type: application/json
+Authorization: Bearer 1234
+
+{
+    
+    "name": "iPhone 16",
+    "age": 50000
+}
 
 ###
 DELETE http://localhost:3000/products/1
